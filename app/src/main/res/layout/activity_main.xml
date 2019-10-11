@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <wangsheng.swpuiot.qunyingzhuan.ch3.section6.TopBar
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        custom:leftBackground="#0000ff"
+        custom:leftText="back"
+        custom:leftTextColor="#00ff00"
+
+        custom:rightBackground="#333333"
+        custom:rightText="more"
+        custom:rightTextColor="#ff0000"
+
+        custom:title="我的标题"
+        custom:titleTextColor="#ff0000"
+        custom:titleTextSize="14sp"
+   >
+
+    </wangsheng.swpuiot.qunyingzhuan.ch3.section6.TopBar>
+
+    <wangsheng.swpuiot.qunyingzhuan.ch3.section6.MyCustonTextView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="Android"
+        android:textSize="22sp" />
+</RelativeLayout>
